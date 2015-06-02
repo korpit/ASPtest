@@ -24,3 +24,7 @@ C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\Newtonsoft.Json.
 C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\obj\Debug\EntityMVC.csprojResolveAssemblyReference.cache
 C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\obj\Debug\EntityMVC.dll
 C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\obj\Debug\EntityMVC.pdb
+C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.dll
+C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.xml
+C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.SqlServer.xml

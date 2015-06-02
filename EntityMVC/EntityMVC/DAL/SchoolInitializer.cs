@@ -5,10 +5,12 @@ using System.Web;
 using System.Data.Entity;
 using EntityMVC.Models;
 
+//using System.Data.Entity.Migrations;
 
 namespace EntityMVC.DAL
 {
     public class SchoolInitializer : System.Data.Entity. DropCreateDatabaseIfModelChanges<SchoolContext>
+    //public class SchoolInitializer : DbMigration
     {
         protected override void Seed(SchoolContext context)
         {
