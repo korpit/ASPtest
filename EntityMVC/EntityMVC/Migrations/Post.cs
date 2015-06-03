@@ -16,6 +16,8 @@ namespace EntityMVC.Migrations
         public string Content { get; set; }
 
         public int ID { get; set; }
-        public Student Student { get; set; } 
+        public Student Student { get; set; }
+        public Course Course { get; set; }
+        public Enrollment Enrollment { get; set; }
     }
 }

@@ -124,6 +124,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201506030744416_AddPostClass.cs" />
+    <Compile Include="Migrations\201506030744416_AddPostClass.Designer.cs">
+      <DependentUpon>201506030744416_AddPostClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Post.cs" />
     <Compile Include="Models\Course.cs" />
@@ -182,6 +186,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201506030744416_AddPostClass.resx">
+      <DependentUpon>201506030744416_AddPostClass.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

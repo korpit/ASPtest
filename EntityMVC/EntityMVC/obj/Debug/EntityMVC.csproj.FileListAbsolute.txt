@@ -28,3 +28,5 @@ C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.
 C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.SqlServer.dll
 C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.xml
 C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\obj\Debug\EntityMVC.Migrations.AddPostClass.resources
+C:\Users\TimoK\Documents\GitHub\ASPtest\EntityMVC\EntityMVC\obj\Debug\EntityMVC.csproj.GenerateResource.Cache

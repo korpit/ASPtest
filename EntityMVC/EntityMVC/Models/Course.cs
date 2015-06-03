@@ -1,4 +1,5 @@
-﻿//using System;
+﻿using EntityMVC.Migrations;
+//using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -18,5 +19,6 @@ namespace EntityMVC.Models
         public string Url { get; set; }
 
         public virtual ICollection<Enrollment> Enrollments { get; set; }
+        public virtual List<Post> Posts { get; set; }
     }
 }
