@@ -22,13 +22,22 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+<<<<<<< HEAD
                     <li>@Html.ActionLink("Koti", "Index", "Home")</li>
                     <li>@Html.ActionLink("Ketä me olemme", "About", "Home")</li>
                     <li>@Html.ActionLink("Opiskelijat", "Index", "Student")</li>
                     <li>@Html.ActionLink("Kurssit", "Index", "Course")</li>
                     <li>@Html.ActionLink("Ohjeet", "Index", "Instructor" )</li>
                     <li>@Html.ActionLink("Tiedekunnat", "Index", "Department")</li>
+=======
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Students", "Index", "Student")</li>
+                    <li>@Html.ActionLink("Courses", "Index", "Course")</li>
+                    <li>@Html.ActionLink("Instructors", "Index", "Instructor")</li>
+                    <li>@Html.ActionLink("Departments", "Index", "Department")</li>
                     <li>@Html.ActionLink("Student Index Table","Index","Students")</li>
+>>>>>>> origin/master
                 </ul>
                     <!-- dropdown
                     <li class="dropdown">
