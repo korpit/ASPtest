@@ -38,14 +38,15 @@
        
         <td>
             <ul class="dropdown">
-                <
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Actions</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">@Html.ActionLink("Edit", "Edit", new { id = item.CourseID })</a></li>
+                    <li><a href="#">@Html.ActionLink("Details", "Details", new { id = item.CourseID })</a></li>
+                    <li><a href="#">@Html.ActionLink("Delete", "Delete", new { id = item.CourseID })</a></li>
 
-
-
+                </ul>
             </ul>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CourseID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CourseID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CourseID })
+           
         </td>
     </tr>
 }
